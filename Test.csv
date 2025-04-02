@@ -1,2 +1,2 @@
-document,EXTID
-1,2
+IDMESSAGE,system_time,EXTID,DocNumber,VidDoc,DateDoc
+IDMESSAGE_value,system_time_value,EXTID_value,DocNumber_value,VidDoc_value,DateDoc_value

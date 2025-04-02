@@ -60,8 +60,10 @@ public class Main {
             try {
                 Document newDoc = domBuilder.newDocument();
                 // Root element
-                Element rootElement = newDoc.createElement("XMLCreators1");
+                Element rootElement = newDoc.createElement("ExtDocNAReq");
                 newDoc.appendChild(rootElement);
+
+
                 // Read csv file
                 csvReader = new BufferedReader(new FileReader(csvFileName));
 
@@ -82,10 +84,10 @@ public class Main {
                         for (String col : nextLine) {
                             headers.add(col);
                         }
-                    } else { // Data row
-                        Element rowElement = newDoc.createElement("row");
-                        rootElement.appendChild(rowElement);
 
+                    } else { // Data row
+                        Element rowElement = newDoc.createElement("document");
+                        rootElement.appendChild(rowElement);
                         int col = 0;
                         for (String value : nextLine) {
                             String header = headers.get(col).replaceAll("[\\t\\p{Zs}\\u0020]", "_");

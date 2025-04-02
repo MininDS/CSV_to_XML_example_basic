@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<XMLCreators1>
-    <row>
-        <document>1</document>
-        <EXTID>2</EXTID>
-    </row>
-</XMLCreators1>
+<ExtDocNAReq>
+    <document>
+        <IDMESSAGE>IDMESSAGE_value</IDMESSAGE>
+        <system_time>system_time_value</system_time>
+        <EXTID>EXTID_value</EXTID>
+        <DocNumber>DocNumber_value</DocNumber>
+        <VidDoc>VidDoc_value</VidDoc>
+        <DateDoc>DateDoc_value</DateDoc>
+    </document>
+</ExtDocNAReq>
