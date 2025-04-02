@@ -31,7 +31,7 @@ public class Main {
     }
 
     public Main() {
-        new XMLCreators().convertFile("Test.csv", "Test.xml", '\t');
+        new XMLCreators().convertFile("Test.csv", "Test.xml", ',');
     }
 
     public class XMLCreators {

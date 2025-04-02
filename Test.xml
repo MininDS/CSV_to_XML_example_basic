@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <XMLCreators1>
     <row>
-        <Name__Age_Sex>chi   2  female</Name__Age_Sex>
-    </row>
-    <row>
-        <Name__Age_Sex>kay   21  male</Name__Age_Sex>
-    </row>
-    <row>
-        <Name__Age_Sex>John  22  male</Name__Age_Sex>
+        <document>1</document>
+        <EXTID>2</EXTID>
     </row>
 </XMLCreators1>
